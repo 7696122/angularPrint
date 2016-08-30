@@ -11,6 +11,14 @@
         margin:0mm !important;
         -webkit-print-color-adjust:exact;
     }
+    .modal{
+      position: absolute;
+      left: 0;
+      top: 0;
+      margin: 0;
+      padding: 0;
+      min-height:550px
+    }
     .printOnly, .printOnly *{
         visibility:visible;
         display:initial;
